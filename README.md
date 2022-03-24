@@ -1,2 +1,2 @@
-# Pesquisa-e-Inova-o
+# Pesquisa-e-inovacao
 Atividades de PI
