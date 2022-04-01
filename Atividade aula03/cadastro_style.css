@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.header{
+    border-bottom: 2px solid #32b9cd;
+}
+
+.header .container{
+    color: #32b9cd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container ul{
+    color: #e3b062;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.container ul a{
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora{
+    font-weight: 600;
+}
+
+.banner{
+    background-image: url("banner.png");
+    height: 500px;
+    background-size: cover;
+}
+
+.banner p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    width: 280px;
+    margin-left: 350px;
+}
+
+.banner .container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .container span{
+    font-weight: 800;
+}
+
+.card{
+    color: #32b9cd;
+}
+
+.banner .card{
+    background-color: beige;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn{
+    font-family: monospace;
+    margin-top: 10px;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    border: 1px solid #e75459;
+    border-radius: 4px;
+}
